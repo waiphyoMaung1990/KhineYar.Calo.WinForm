@@ -110,7 +110,7 @@ namespace KhineYar.Calo.WinForm
                 Rowing rowingActivity = new Rowing();
                 rowingActivity.Duration = TimeSpan.Parse(txtrowingduration.Text);
                 rowingActivity.StrokesPerMinute = Convert.ToInt32(txtstockperminute.Text);
-                totalCaloriesBurned += CalculateRowingCalories(rowingActivity);
+                 totalCaloriesBurned += CalculateRowingCalories(rowingActivity);
             }
 
             if (pnrunning.Enabled)
